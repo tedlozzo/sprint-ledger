@@ -5,7 +5,7 @@ WITH base AS (
     fields.customfield_12310921 AS raw_sprint,
     unnest(changelog.values) AS change
   FROM read_ndjson(
-    'out_mesos/jira.jsonl',
+    'data/jira.jsonl',
     auto_detect = true,
     ignore_errors = true,
     maximum_object_size = 50000000

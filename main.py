@@ -79,7 +79,7 @@ def classify_tickets(df):
 def load_data():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     sql_path = os.path.join(script_dir, "sql", "extract-sprint-and-description.sql")
-    result_path = os.path.join(script_dir, "classified_backlog_all_models.csv")
+    result_path = os.path.join(script_dir, "result", "classified_backlog_all_models.csv")
 
     con = duckdb.connect()
     with open(sql_path, "r", encoding="utf-8") as file:

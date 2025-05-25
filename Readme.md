@@ -25,3 +25,26 @@ Install with:
 ```bash
 pip install -r requirements.txt
 ```
+
+## 🧪 Run the Script
+
+`python main.py`
+
+This will:
+
+* Load and run the DuckDB SQL query
+* Apply five classification models
+* Save predictions into a CSV file
+
+## 📚 References
+
+Backlog Color Coding
+
+Apache Mesos JIRA Dataset
+
+Sentence Transformers
+
+## 📌 Notes
+This script works best on large, historic backlogs
+Models may disagree — that’s a feature, not a bug
+Combine results using consensus logic (e.g., 3+ models agree = strong signal)

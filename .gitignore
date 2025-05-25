@@ -1,0 +1,12 @@
+output/*.jsonl
+*.http
+*key.json
+*.env
+__pycache__
+*.jsonl
+*.lock.hcl
+terraform-provider-*
+*.tfstate*
+.terraform
+venv
+.DS_Store
