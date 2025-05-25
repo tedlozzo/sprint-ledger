@@ -37,12 +37,10 @@ This will:
 * Save predictions into a CSV file
 
 ## 📚 References
-
-Backlog Color Coding
-
-Apache Mesos JIRA Dataset
-
-Sentence Transformers
+Article about this code - https://tedlozzo.substack.com/p/colours-of-backlog 
+Backlog Color Coding - https://www.infoq.com/news/2010/05/what-color-backlog/
+Apache Mesos JIRA Dataset - https://www.kaggle.com/datasets/tedlozzo/apache-jira-mesos-project 
+Sentence Transformers - https://sbert.net/ 
 
 ## 📌 Notes
 This script works best on large, historic backlogs
